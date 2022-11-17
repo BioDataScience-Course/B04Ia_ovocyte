@@ -1,0 +1,42 @@
+---
+title: "Modélisation de la maturation d'ovocytes"
+output: github_document
+---
+
+<!--- do not edit readme.md ---->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+SciViews::R
+```
+
+# Présentation des données
+
+```{r}
+ovo <- read("data/ovocyte.rds") %>.%
+  smutate(., mat = as.factor(mat))
+
+conc <- sort(unique(ovo$conc))
+```
+
+Le jeu de données `ovocyte.rds` porte sur la maturation d'ovocytes. Afin de faire maturer les ovocytes, différentes concentrations connues d'hypoxanthine sont testées. Ce tableau de `r nrow(ovo)` observations comprend `r ncol(ovo)` variables. Les concentrations suivantes en hypoxanthine sont employées afin d'étudier la maturation des ovocytes : `r paste0(conc, collapse = ", ")`. La variable `mat` comprend `r nlevels(ovo$mat)` niveaux :
+
+-   `r levels(ovo$mat)[[1]]` : l'ovocyte n'est pas en maturation
+-   `r levels(ovo$mat)[[2]]` : l'ovocyte a maturé
+
+# Objectif
+
+Ce projet est un projet **individuel**, **court** et **cadré**.
+
+Dans ce projet, vous devrez :
+
+-   Visualiser et décrire vos observations
+-   Ajuster et interpréter un modèles linéaires généralisés
+
+# Consignes
+
+Au sein du fichier `ovocytes.Rmd` qui se trouve dans le dossier `docs/`, réalisez et interprétez le modèle linéaire généralisé demandé. Une fois le travail réalisé, **assurez-vous que le document compile en un rapport final HTML sans erreurs via le bouton Knit**, sinon, corrigez les erreurs qui s'affichent avant votre soumission finale.
+
+Faites attention à bien **citer vos sources**. Le plagiat est, comme toujours, bien évidemment interdit. Si vous avez été aidé par quelqu'un (un ou une autre étudiant•e ou enseignant•e) pour l'une ou l'autre partie de votre projet, vous devez le ou la citer.
+
+Ce projet correspond au template : <https://github.com/BioDataScience-Course/B03Ia_ovocyte>
