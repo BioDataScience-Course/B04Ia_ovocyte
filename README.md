@@ -6,9 +6,9 @@ Modélisation de la maturation d’ovocytes
 # Présentation des données
 
 Le jeu de données `ovocyte.rds` porte sur la maturation d’ovocytes. Afin
-de faire maturer les ovocytes, différentes concentrations connue
-d’hypoxantine sont testées. Ce tableau de 280 observations comprend 3
-variables. Les concentrations suivantes en hypoxantine sont employée
+de faire maturer les ovocytes, différentes concentrations connues
+d’hypoxanthine sont testées. Ce tableau de 280 observations comprend 3
+variables. Les concentrations suivantes en hypoxanthine sont employées
 afin d’étudier la maturation des ovocytes : 0, 0.25, 0.5, 1, 2, 3, 4. La
 variable `mat` comprend 2 niveaux :
 
@@ -19,7 +19,10 @@ variable `mat` comprend 2 niveaux :
 
 Ce projet est un projet **individuel**, **court** et **cadré**.
 
-TODO
+Dans ce projet, vous devrez :
+
+-   Visualiser et décrire vos observations
+-   Ajuster et interpréter un modèles linéaires généralisés
 
 # Consignes
 
