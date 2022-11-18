@@ -1,5 +1,5 @@
 ---
-title: "Modélisation de la maturation d'ovocytes"
+title: "Modélisation de la maturation d'ovocytes de souris"
 output: github_document
 ---
 

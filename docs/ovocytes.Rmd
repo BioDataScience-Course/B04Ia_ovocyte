@@ -4,6 +4,7 @@ author: "___"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 bibliography: references.bib
 output: html_document 
+lang: "fr"
 ---
 
 <!--# Complétez l'entête YAML.-->
@@ -15,9 +16,7 @@ SciViews::R("model", lang = "fr")
 
 # Introduction
 
-<!--# Introduisez en maximum 5 phrases, l'hypoxanthine et l'effet de cette substance sur les ovocytes, sans oublier de citer vos sources.-->
-
-Exemple d'une citation [@Anderson1935]
+L'hypoxanthine est présente dans le liquide folliculaire de la souris [@pan2019]. Cette molécule permet l'arret méoitique de l'ovocytes [@eppig1987].
 
 # Analyse
 

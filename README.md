@@ -1,4 +1,4 @@
-Modélisation de la maturation d’ovocytes
+Modélisation de la maturation d’ovocytes de souris
 ================
 
 <!--- do not edit readme.md ---->
