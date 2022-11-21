@@ -16,7 +16,7 @@ SciViews::R("model", lang = "fr")
 
 # Introduction
 
-L'hypoxanthine est présente dans le liquide folliculaire de la souris [@pan2019]. Cette molécule permet l'arret méoitique de l'ovocytes [@eppig1987].
+Le développement du follicule ovarien et l'ovocyte sont coordonnées chez les mammifères [@wigglesworth2013]. L'hypoxanthine est une molécule présente dans le liquide folliculaire ainsi que dans l'ovocyte de la souris [@pan2019]. Cette molécule permet l'arrêt méoitique des ovocytes [@eppig1987].
 
 # Analyse
 

@@ -22,7 +22,7 @@ Ce projet est un projet **individuel**, **court** et **cadré**.
 Dans ce projet, vous devrez :
 
 -   Visualiser et décrire vos observations
--   Ajuster et interpréter un modèles linéaires généralisés
+-   Ajuster et interpréter un modèle linéaire généralisé
 
 # Consignes
 
