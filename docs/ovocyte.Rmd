@@ -1,0 +1,75 @@
+---
+title: "___"
+author: "___"
+date: "___"
+bibliography: references.bib
+output: html_document 
+lang: "fr"
+---
+
+<!--% Complétez l'entête YAML.-->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+SciViews::R("model", lang = "fr")
+```
+
+## Introduction
+
+Le développement du follicule ovarien et l'ovocyte est coordonné chez les mammifères [@wigglesworth2013]. L'hypoxanthine est une molécule présente dans le liquide folliculaire ainsi que dans l'ovocyte de la souris [@pan2019] à des concentrations généralement comprises entre 2 et 4 mM. Cette molécule permet l'arrêt méiotique des ovocytes [@eppig1987] qui restent au stade de vésicules germinales VG bloqués en prophase I. Dans ce stade, le noyau de l'ovocyte présente une membrane nucléaire visible sous microscope. Il est donc assez facile de les dénombrer. Les données correspondent à ces dénombrements réalisés sur des ovocytes nus incubés avec des concentrations différentes d'hypoxanthine.
+
+<!--# Attention: vg dénombre les ovocytes n'ayant pas maturés. -->
+
+## Analyse
+
+<!--% Importez le tableau `ovocyte.csv` et assignez-le à `ovo`. Vérifiez le type des variables. -->
+
+<!--# Attention: pour effectuer les analyses ci-dessous, vous devez vous inspirer du code provenant de l'ensemble du module 4 que vous devez adapter au contexte de votre GLM! -->
+
+```{r import}
+
+```
+
+<!--% Réalisez un tableau et un graphique pertinent montrant la proportion d'ovocytes ayant maturé en fonction de la concentration d'hypoxanthine. -->
+
+```{r tab}
+
+```
+
+```{r plot}
+
+```
+
+<!--% Interprétez le tableau et le graphique ci-dessus en 3 à 4 phrases maximum. -->
+
+<!--% Réalisez un modèle linéaire généralisé de la maturation des ovocytes en fonction de l'hypoxanthine. Étudiez le résumé du modèle. -->
+
+```{r glm}
+
+```
+
+<!--% Interprétez le modèle ci-dessus en 3 à 5 phrases maximum. -->
+
+<!--% Réalisez un graphique qui montre les données et le modèle ajusté. -->
+
+```{r plot_glm}
+
+```
+
+<!--% Interprétez ce graphique en 1 phrase. -->
+
+<!--% Effectuez l'analyse des résidus avec le graphique le plus pertinent pour déterminer s'il y a ou non un problème de diseprsion des résidus (équivalent à une hétéroscédaticité des résidus dans un modèle linéaire classique). -->
+
+```{r}
+
+```
+
+<!--% Interprétez le graphique ci-dessus en 1 phrase. -->
+
+# Discussion et conclusions
+
+<!--% Discutez vos résultats et apportez des conclusions ici en 2 à 3 phrases maximum. -->
+
+<!--# Ne modifiez, ni n'écrivez rien ci-dessous. Les références seront automatiquement compilées à la fin du document après le titre "Références". -->
+
+# Références {.unnumbered}
